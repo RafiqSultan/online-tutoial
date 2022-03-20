@@ -177,19 +177,21 @@ input[type='text'] {
 }
 
 .main .content-main h1 {
-    font-size: 37px;
+    font-size: 39px;
     font-weight: bold;
     text-align: center;
+    margin-bottom: 70px;
 }
 
 .main .content-main p {
     font-size: 22px;
 }
 
-.main .content-main img {
+
+/* .main .content-main img {
     width: 800px;
     height: 300px;
-}
+} */
 
 .main .content-main .textcode {
     width: 100%;
@@ -332,34 +334,10 @@ input[type='text'] {
 
 /*  Main -----Text Shep-------------- */
 
-.circle {
-    position: relative;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
+.wrap {
+    width: 400px;
     display: flex;
-    align-items: center;
     justify-content: center;
-    background-color: #919191;
-}
-
-.circle .logo {
-    position: absolute;
-    width: 150px;
-    height: 150px;
-    background-color: red;
-    border-radius: 50%;
-}
-
-.circle .text {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-}
-
-.circle .text span {
-    position: absolute;
-    left: 50%;
-    font-size: 16px;
-    transform-origin: 0 100px;
+    align-items: center;
+    text-align: center;
 }

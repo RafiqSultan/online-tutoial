@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .wrap {
+            width: 200px;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrap">
+        <svg viewBox="0 0 400 400">
+        <defs>
+          <path id="MyPath"
+                d="M 200, 200
+                   m -100, 0
+                   a 100,100 0 1,1 200,0
+                   a 100,100 0 1,1 -200,0
+      " />
+        </defs>
+      
+        <text font-family="Verdana" font-size="30" fill="rgb(248,203,173)" stroke="rgb(237,125,49)">
+          <textPath xlink:href="#MyPath">
+            Online-Tutorial -   Online-Tutorial  
+          </textPath>
+        </text>
+        <circle fill="none" stroke="rgb(165,195,251)" cx="200" cy="200" r="80" stroke-width="10" filter="blur(3px)" />
+        <circle fill="rgb(146,208,80)" stroke="rgb(169,209,142)" stroke-width="2px" cx="200" cy="200" r="78" />
+      </svg>
+    </div>
+</body>
+
+</html>
