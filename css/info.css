@@ -1,0 +1,133 @@
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+body {
+    margin: 0;
+    color: #fff;
+    font: 87.5%/1.5em 'Open Sans', sans-serif;
+      background:url(../img/compute-ea4c57a4.png)no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+.navbar a:active {
+  background: #ddd;
+  color: black;
+}
+/******************************************************/
+
+.navbar .search-container {
+  float: right;
+}
+
+.navbar input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.navbar .search-container button {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.navbar .search-container button:hover {
+  background: #ccc;
+}
+/******************************************************************************************************/
+
+.column {
+    float: left;
+    width: 32%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+    /* height: 100px; */
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+  }
+  
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+  }
+  
+  .container {
+    padding: 0 16px;
+    /* background-color: #474e5d;
+    margin-top: 10px;
+    margin-right: 5px; */
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    /* color: grey; */
+    color: #ddd;
+    /* color: #474e5d; */
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+
+  img{
+      width: 32%;
+      height: 500px;
+  }

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Effects</title>
+    <link rel="stylesheet" href="css/coursesstyle.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="htmlcourse.html">HTML</a>
+        <a href="#">CSS</a>
+        <a href="javascriptcours.html">JS</a>
+        <a href="">Effects</a>
+
+        <a href="contact.html">Contact</a>
+        <a href="team info.html">About Us</a>
+        <div class="search-container">
+            <form action="#">
+                <input type="text" placeholder="Search.." name="search">
+                <button type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- -------------------------------------------------------------- -->
+
+    <div class="sidenav">
+        <h2 style="text-align: center;">Effects</h2>
+        <a href="effect.html">3D Effects</a>
+        <a href="text_reflection.html">Text Reflection</a>
+        <a href="text_shap.html">Text Different Shap</a>
+        <a href="text_fire.html">Text Fire Flaming</a>
+    </div>
+
+
+    <section class="main">
+        <div class="content-main">
+            <div>
+                <h1> 3D Effects</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta culpa minima iure corrupti dicta deserunt facilis, aperiam sed expedita porro quam vitae architecto quis vero necessitatibus quae ut sunt voluptatibus.</p>
+            </div>
+            <div>
+                <img src="img/3ddddd.jpg" alt="3dtext">
+            </div>
+
+            <div class="textcode">
+                <h3> How To Create 3D Text</h3>
+                <div>
+                    <h3>Html Code</h3>
+                </div>
+                <div class="code">
+                    <pre> 
+                        &lt;html&gt;
+                        &lt;head&gt;
+                        &lt;body&gt;
+                        &lt;span class="text_effect"&gt;Online Tutorial&lt;/span&gt;
+                        &lt;/html&gt;
+                        &lt;/head&gt;
+                        &lt;/body&gt;
+                    </pre>
+                </div>
+                <div>
+                    <h3>Css Code</h3>
+                </div>
+                <div class="code">
+                    <pre> 
+                       <code>
+                        .main .content-main .text_effect {
+                            transform: translate(50%, -50%);
+                            text-transform: uppercase;
+                            font-family: verdana;
+                            font-size: 50px;
+                            font-weight: bold;
+                            color: #00f;
+                            text-shadow: 1px 1px 1px #919191,
+                            1px 2px 1px #919191,
+                            1px 3px 1px #919191,
+                            1px 4px 1px #919191, 
+                            1px 5px 1px #919191, 
+                            1px 6px 1px #919191, 
+                            1px 7px 1px #919191, 
+                            1px 8px 1px #919191, 
+                            1px 9px 1px #919191, 
+                            1px 10px 1px #919191, 
+                            1px 18px 6px rgba(16, 16, 16, 0.4), 
+                            1px 22px 10px rgba(16, 16, 16, 0.2), 
+                            1px 25px 35px rgba(16, 16, 16, 0.2), 
+                            1px 30px 60px rgba(16, 16, 16, 0.4);
+                        }
+                       </code>
+                    </pre>
+                </div>
+                <div>
+                    <h3>Result</h3>
+                </div>
+                <div class="txteffects">
+                    <span class="text_effect">Online Tutorial</span>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <!-- <div class="code">
+            <h2>Example of HTML Symbol Entities</h2>
+            <p>
+                <textarea id="subject" name="subject" placeholder="
+<p>I will display &euro;</p>
+<p>I will display &#8364;</p>
+<p>I will display &#x20AC;</p>
+            " style="height:170px ; width: 70%;"></textarea>
+            </p>
+            <h2>Will display as:</h2>
+            <p>I will display &euro;</p>
+            <p>I will display &#8364;</p>
+            <p>I will display &#x20AC;</p>
+            <h2>Will learn more </h2>
+            <h2>you can see menu at the left</h2>
+        </div> -->
+    </section>
+
+</body>
+
+</html>

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Effects</title>
+    <link rel="stylesheet" href="css/coursesstyle.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="htmlcourse.html">HTML</a>
+        <a href="#">CSS</a>
+        <a href="javascriptcours.html">JS</a>
+        <a href="">Effects</a>
+
+        <a href="contact.html">Contact</a>
+        <a href="team info.html">About Us</a>
+        <div class="search-container">
+            <form action="#">
+                <input type="text" placeholder="Search.." name="search">
+                <button type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- -------------------------------------------------------------- -->
+
+    <div class="sidenav">
+        <h2 style="text-align: center;">Effects</h2>
+        <a href="effect.html">3D Effects</a>
+        <a href="text_reflection.html">Text Reflection</a>
+        <a href="text_shap.html">Text Different Shap</a>
+        <a href="text_fire.html">Text Fire Flaming</a>
+    </div>
+
+
+    <section class="main">
+        <div class="content-main">
+            <div>
+                <h1>Text Fire </h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta culpa minima iure corrupti dicta deserunt facilis, aperiam sed expedita porro quam vitae architecto quis vero necessitatibus quae ut sunt voluptatibus.</p>
+            </div>
+            <div>
+                <img src="img/3ddddd.jpg" alt="3dtext">
+            </div>
+
+            <div class="textcode">
+                <h3> How To Create 3D Text</h3>
+                <div>
+                    <h3>Html Code</h3>
+                </div>
+                <div class="code">
+                    <pre> 
+                        &lt;html&gt;
+                        &lt;head&gt;
+                        &lt;body&gt;
+                        &#60;div class="dark fire"&#62;
+                            &#60;h1 class="Blazing" contenteditable="true"&#62;Online Tutorial&#60;/h1&#62;
+                        &#60;/div&#62;
+                        &lt;/html&gt;
+                        &lt;/head&gt;
+                        &lt;/body&gt;
+                    </pre>
+                </div>
+                <div>
+                    <h3>Css Code</h3>
+                </div>
+                <div class="code">
+                    <pre> 
+                       <code>
+                        .fire {
+                            margin: 50px auto;
+                            width: 100%;
+                            background-position: center center;
+                            background-size: 1000px 200px;
+                            border-radius: 10px;
+                            overflow: hidden;
+                            text-align: center;
+                            vertical-align: middle;
+                        }
+                        
+                        .fire:before {
+                            content: '';
+                            display: inline-block;
+                            height: 100%;
+                            vertical-align: middle;
+                        }
+                        
+                        .Blazing {
+                            display: inline-block;
+                            margin: 0;
+                            color: rgb(204, 16, 9);
+                            font-size: 100px;
+                            line-height: 50px;
+                            min-width: 50px;
+                            outline: none;
+                            vertical-align: middle;
+                            text-shadow: 0 3px 20px red, 0 0 20px red, 0 0 10px rgb(255, 94, 0),
+                             4px -5px 6px yellow, -4px -10px 10px yellow, 0 -10px 30px yellow;
+                            animation: 2s Blazing infinite alternate linear;
+                        }
+                        
+                        @keyframes Blazing {
+                            0% {
+                                text-shadow: 0 3px 20px red, 0 0 20px red, 0 0 10px orange, 0 0 0 yellow, 0 0 5px yellow,
+                                 -2px -5px 5px yellow, 4px -10px 10px yellow;
+                            }
+                            25% {
+                                text-shadow: 0 3px 20px red, 0 0 30px red, 0 0 20px orange, 0 0 5px yellow,
+                                 -2px -5px 5px yellow, 3px -10px 10px yellow, -4px -15px 20px yellow;
+                            }
+                            50% {
+                                text-shadow: 0 3px 20px red, 0 0 20px red, 0 -5px 10px orange,
+                                 -2px -5px 5px yellow, 3px -10px 10px yellow, -4px -15px 20px yellow,
+                                  2px -20px 30px rgba(255, 255, 0, 0.5);
+                            }
+                            75% {
+                                text-shadow: 0 3px 20px red, 0 0 20px red, 0 -5px 10px orange,
+                                 3px -5px 5px yellow, -4px -10px 10px yellow, 2px -20px 30px rgba(255, 255, 0, 0.5),
+                                  0px -25px 40px rgba(255, 255, 0, 0)
+                            }
+                            100% {
+                                text-shadow: 0 3px 20px red, 0 0 20px red, 0 0 10px orange, 0 0 0 yellow,
+                                 0 0 5px yellow, -2px -5px 5px yellow, 4px -10px 10px yellow;
+                            }
+                        }
+                       </code>
+                    </pre>
+                </div>
+                <div>
+                    <h3>Result</h3>
+                </div>
+                <div class="txteffects">
+                    <div class="dark fire">
+                        <h1 class="Blazing" contenteditable="true">Online Tutorial</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>

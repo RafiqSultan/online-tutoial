@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Effects</title>
+    <link rel="stylesheet" href="css/coursesstyle.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="htmlcourse.html">HTML</a>
+        <a href="#">CSS</a>
+        <a href="javascriptcours.html">JS</a>
+        <a href="">Effects</a>
+
+        <a href="contact.html">Contact</a>
+        <a href="team info.html">About Us</a>
+        <div class="search-container">
+            <form action="#">
+                <input type="text" placeholder="Search.." name="search">
+                <button type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- -------------------------------------------------------------- -->
+
+    <div class="sidenav">
+        <h2 style="text-align: center;">Effects</h2>
+        <a href="effect.html">3D Effects</a>
+        <a href="text_reflection.html">Text Reflection</a>
+        <a href="text_shap.html">Text Different Shap</a>
+        <a href="text_fire.html">Text Fire Flaming</a>
+    </div>
+
+
+    <section class="main">
+        <div class="content-main">
+            <div>
+                <h1>Text Reflection </h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta culpa minima iure corrupti dicta deserunt facilis, aperiam sed expedita porro quam vitae architecto quis vero necessitatibus quae ut sunt voluptatibus.</p>
+            </div>
+            <div>
+                <img src="img/3ddddd.jpg" alt="3dtext">
+            </div>
+
+            <div class="textcode">
+                <h3> How To Create 3D Text</h3>
+                <div>
+                    <h3>Html Code</h3>
+                </div>
+                <div class="code">
+                    <pre> 
+                        &lt;html&gt;
+                        &lt;head&gt;
+                        &lt;body&gt;
+                        &#60;h2 class="text-reflect"&#62;Online Tutorial&#60;/h2&#62;
+                        &lt;/html&gt;
+                        &lt;/head&gt;
+                        &lt;/body&gt;
+                    </pre>
+                </div>
+                <div>
+                    <h3>Css Code</h3>
+                </div>
+                <div class="code">
+                    <pre> 
+                       <code>
+                        .main .text-reflect {
+                            width: 100%;
+                            font-size: 40px;
+                            font-weight: bold;
+                            text-transform: uppercase;
+                            letter-spacing: 3px;
+                            text-align: center;
+                            color: #00f;
+                        }
+                        
+                        
+                        /* TEXT-REFLECT CSS */
+                        
+                        .main .text-reflect,
+                        .text-reflect:before,
+                        .text-reflect span {
+                            display: block;
+                            margin: 0;
+                            padding: 0;
+                        }
+                        
+                        .main .text-reflect,
+                        .text-reflect:before,
+                        .text-reflect:after {
+                            position: relative;
+                        }
+                        
+                        .main .text-reflect {
+                            top: -20px;
+                        }
+                        
+                        .main .text-reflect:before {
+                            content: 'Online Tutorial';
+                            top: 54px;
+                            transform: scale(1, -1);
+                            backface-visibility: visible;
+                            z-index: 1;
+                        }
+                        
+                        .main .text-reflect:after {
+                            content: '';
+                            display: block;
+                            top: 5px;
+                            left: 0;
+                            width: 100%;
+                            height: 60px;
+                            background-image: linear-gradient(to bottom, rgba(255, 255, 255, .4) 0%,
+                             rgba(255, 255, 255, 1) 50%);
+                            z-index: 2;
+                        }
+                       </code>
+                    </pre>
+                </div>
+                <div>
+                    <h3>Result</h3>
+                </div>
+                <div class="txteffects">
+                    <h2 class="text-reflect">Online Tutorial</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>

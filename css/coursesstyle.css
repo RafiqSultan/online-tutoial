@@ -1,0 +1,162 @@
+body {
+    margin: 0;
+    color: #fff;
+    font: 87.5%/1.5em 'Open Sans', sans-serif;
+    background: url(../img/compute-ea4c57a4.png)no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /* opacity: 0.5; */
+}
+
+.navbar {
+    z-index: 2;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+.navbar a:active {
+    background: #ddd;
+    color: black;
+}
+
+
+/******************************************************/
+
+.navbar .search-container {
+    float: right;
+}
+
+.navbar input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+}
+
+.navbar .search-container button {
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.navbar .search-container button:hover {
+    background: #ccc;
+}
+
+
+/******************************************************************************************************/
+
+.sidenav {
+    height: 100%;
+    width: 180px;
+    position: fixed;
+    z-index: 1;
+    top: 40px;
+    /* left: 10px; */
+    background: #eee;
+    overflow-x: hidden;
+    padding: 0px 0;
+}
+
+.sidenav a,
+h2 {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: medium;
+    /* color: #2196F3; */
+    color: #000;
+    display: block;
+}
+
+.sidenav a:hover {
+    /* color: #064579; */
+    color: #f2f2f2;
+    background-color: #333;
+}
+
+.sidenav a:active {
+    /* color: #064579; */
+    color: #f2f2f2;
+    background-color: #333;
+}
+
+.main {
+    background-color: rgba(157, 238, 225, 0.1);
+    margin-left: 180px;
+    /* Same as the width of the sidenav */
+    font-size: 15px;
+    /* Increased text to enable scrolling */
+    padding: 80px 40px;
+    color: #eee;
+    /* height: 100%; */
+    /* margin-bottom: 100px; */
+    margin-top: 50px;
+}
+
+.paaddingclass td,
+th {
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #ddd;
+    color: #333;
+}
+
+tr:nth-child(odd) {
+    /* background-color: #ddd; */
+    background-color: #eee;
+    color: #333;
+}
+
+.paaddingclass table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.paaddingclass th,
+td {
+    padding: 20px;
+}
+
+.paaddingclass tr:hover {
+    background-color: #eee;
+    color: #333;
+    border: 1px solid black;
+}
+
+ul {
+    list-style-type: lower-greek;
+    padding: 15px;
+    margin: 0;
+}
+
+ul li {
+    padding: 12px;
+}
