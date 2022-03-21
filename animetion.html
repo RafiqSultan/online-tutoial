@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Animetion</title>
+    <link rel="stylesheet" href="css/coursesstyle.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        div.anem{
+            margin-left: 200px;
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            position: relative;
+            animation-name: example;
+            animation-duration: 4s;
+        }
+
+        @keyframes example {
+            0% {
+                background-color: red;
+                left: 0px;
+                top: 0px;
+            }
+
+            25% {
+                background-color: yellow;
+                left: 200px;
+                top: 0px;
+            }
+
+            50% {
+                background-color: blue;
+                left: 200px;
+                top: 200px;
+            }
+
+            75% {
+                background-color: green;
+                left: 0px;
+                top: 200px;
+            }
+
+            100% {
+                background-color: red;
+                left: 0px;
+                top: 0px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="htmlcourse.html">HTML</a>
+        <a href="#">CSS</a>
+        <a href="javascriptcours.html">JS</a>
+        <a href="">Effects</a>
+
+        <a href="contact.html">Contact</a>
+        <a href="team info.html">About Us</a>
+        <div class="search-container">
+            <form action="#">
+                <input type="text" placeholder="Search.." name="search">
+                <button type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- -------------------------------------------------------------- -->
+
+    <div class="sidenav">
+        <h2 style="text-align: center;">Effects Tutorial</h2>
+        <a href="effect.html">3D Effects</a>
+        <a href="text_reflection.html">Text Reflection</a>
+        <a href="text_shap.html">Text Different Shap</a>
+        <a href="text_fire.html">Text Fire Flaming</a>
+        <a href="animetion.html">animetion</a>
+
+    </div>
+
+    <h1>CSS Animation</h1>
+    <h1 style="margin-left: 200px;">CSS Animation</h1>
+    <div class="anem"></div>
+
+
+</body>
+
+</html>
