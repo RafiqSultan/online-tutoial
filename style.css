@@ -1,0 +1,374 @@
+:root {
+    --white_color: #fff;
+    --black_color: #000;
+    --div_color: #D9EEE1;
+}
+
+body {
+    color: var(--white_color);
+    font: 87.5%/1.5em 'Open Sans', sans-serif;
+    background: url(../img/compute-ea4c57a4.png)no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+}
+
+.form-wrapper {
+    width: 300px;
+    height: 370px;
+    position: absolute;
+    top: 50%;
+    left: 48%;
+    margin: -184px 0px 0px -155px;
+    background: rgba(0, 0, 0, 0.27);
+    padding: 15px 25px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.6), inset 0px 1px 0px rgba(255, 255, 255, 0.04);
+}
+
+.form-item {
+    width: 100%;
+}
+
+h3 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 640;
+    margin-bottom: 10px;
+    color: #e7e7e7;
+    padding: 6px;
+    font-family: 'sans-serif', 'helvetica';
+}
+
+.form-item input {
+    border: none;
+    background: transparent;
+    color: #fff;
+    margin-top: 11px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2em;
+    height: 49px;
+    padding: 0 16px;
+    width: 100%;
+    padding-left: 55px;
+}
+
+input[type='password'] {
+    background: transparent url("../img/pass.jpg") no-repeat;
+    background-position: 10px 50%;
+}
+
+input[type='text'] {
+    background: transparent url("../img/user.jpg") no-repeat;
+    background-position: 10px 50%;
+}
+
+.form-item input:focus {
+    outline: none;
+    border: 1.4px solid #cfecf0;
+}
+
+.button-panel {
+    margin-bottom: 20px;
+    padding-top: 10px;
+    width: 100%;
+}
+
+.button-panel .button {
+    background: #00b6df;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    height: 50px;
+    font-family: 'helvetica', 'Open Sans', sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+    text-transform: uppercase;
+    transition: background 0.6s linear;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.button:hover {
+    background: #6eb7cb;
+}
+
+.form-item input,
+.button-panel .button {
+    border-radius: 2px
+}
+
+.reminder {
+    text-align: center;
+}
+
+.reminder a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.reminder a:hover {
+    color: #cab6bf;
+}
+
+
+/* index --------------------------------------- */
+
+.btn {
+    padding: 10px 30px;
+    color: #fff;
+    font-size: 20px;
+    background-color: #282a35;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background-color: #000;
+}
+
+.logo {
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+}
+
+.learn {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--div_color);
+    text-align: center;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+.learn img {
+    width: 250px;
+    height: 250px;
+    margin: 0 50px;
+}
+
+.learn .content h2 {
+    color: var(--black_color);
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.learn .content p {
+    color: var(--black_color);
+    font-size: 20px;
+    margin: 35px;
+}
+
+
+/* ------------------- Main Side------------------------------ */
+
+.main .content-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main .content-main h1 {
+    font-size: 39px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.main .content-main p {
+    font-size: 22px;
+}
+
+
+/* .main .content-main img {
+    width: 800px;
+    height: 300px;
+} */
+
+.main .content-main .textcode {
+    width: 100%;
+}
+
+.main .content-main .textcode h3 {
+    text-align: left;
+}
+
+.main .content-main .textcode .code {
+    background-color: #fff;
+    color: #000;
+    width: 100%;
+}
+
+.main .content-main .txteffects {
+    background-color: #fff;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    padding: 50px 0;
+    max-height: 500px;
+}
+
+.main .content-main .text_effect {
+    transform: translate(50%, -50%);
+    text-transform: uppercase;
+    font-family: verdana;
+    font-size: 50px;
+    font-weight: bold;
+    color: #00f;
+    text-shadow: 1px 1px 1px #919191, 1px 2px 1px #919191, 1px 3px 1px #919191, 1px 4px 1px #919191, 1px 5px 1px #919191, 1px 6px 1px #919191, 1px 7px 1px #919191, 1px 8px 1px #919191, 1px 9px 1px #919191, 1px 10px 1px #919191, 1px 18px 6px rgba(16, 16, 16, 0.4), 1px 22px 10px rgba(16, 16, 16, 0.2), 1px 25px 35px rgba(16, 16, 16, 0.2), 1px 30px 60px rgba(16, 16, 16, 0.4);
+}
+
+
+/* Main Text-Reflection ----------------------- */
+
+.main .text-reflect {
+    width: 100%;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    color: #00f;
+}
+
+
+/* TEXT-REFLECT CSS */
+
+.main .text-reflect,
+.text-reflect:before,
+.text-reflect span {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.main .text-reflect,
+.text-reflect:before,
+.text-reflect:after {
+    position: relative;
+}
+
+.main .text-reflect {
+    top: -20px;
+}
+
+.main .text-reflect:before {
+    content: 'Online Tutorial';
+    top: 54px;
+    transform: scale(1, -1);
+    backface-visibility: visible;
+    z-index: 1;
+}
+
+.main .text-reflect:after {
+    content: '';
+    display: block;
+    top: 5px;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, .4) 0%, rgba(255, 255, 255, 1) 50%);
+    z-index: 2;
+}
+
+
+/* Main Text-Fire ----------------------- */
+
+.fire {
+    margin: 50px auto;
+    width: 100%;
+    background-position: center center;
+    background-size: 1000px 200px;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.fire:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.Blazing {
+    display: inline-block;
+    margin: 0;
+    color: rgb(204, 16, 9);
+    font-size: 100px;
+    line-height: 50px;
+    min-width: 50px;
+    outline: none;
+    vertical-align: middle;
+    text-shadow: 0 3px 20px red, 0 0 20px red, 0 0 10px rgb(255, 94, 0), 4px -5px 6px yellow, -4px -10px 10px yellow, 0 -10px 30px yellow;
+    animation: 2s Blazing infinite alternate linear;
+}
+
+@keyframes Blazing {
+    0% {
+        text-shadow: 0 3px 20px red, 0 0 20px red, 0 0 10px orange, 0 0 0 yellow, 0 0 5px yellow, -2px -5px 5px yellow, 4px -10px 10px yellow;
+    }
+    25% {
+        text-shadow: 0 3px 20px red, 0 0 30px red, 0 0 20px orange, 0 0 5px yellow, -2px -5px 5px yellow, 3px -10px 10px yellow, -4px -15px 20px yellow;
+    }
+    50% {
+        text-shadow: 0 3px 20px red, 0 0 20px red, 0 -5px 10px orange, -2px -5px 5px yellow, 3px -10px 10px yellow, -4px -15px 20px yellow, 2px -20px 30px rgba(255, 255, 0, 0.5);
+    }
+    75% {
+        text-shadow: 0 3px 20px red, 0 0 20px red, 0 -5px 10px orange, 3px -5px 5px yellow, -4px -10px 10px yellow, 2px -20px 30px rgba(255, 255, 0, 0.5), 0px -25px 40px rgba(255, 255, 0, 0)
+    }
+    100% {
+        text-shadow: 0 3px 20px red, 0 0 20px red, 0 0 10px orange, 0 0 0 yellow, 0 0 5px yellow, -2px -5px 5px yellow, 4px -10px 10px yellow;
+    }
+}
+
+
+/*  Main -----Text Shep-------------- */
+
+.wrap {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+/* ----- Day -Night Theme----------------- */
+
+.toggle_theme {
+    position: fixed;
+    right: 0;
+    top: calc(50% - 20px);
+    border: 2px solid #ffff;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: linear-gradient(to right, #000 56%, #fff 50%);
+    z-index: 100;
+    cursor: pointer;
+}
+
+.dark-mode {
+    background-color: #000 !important;
+    color: #fff !important;
+}
+
+.dark-mode1 {
+    color: #fff !important;
+}

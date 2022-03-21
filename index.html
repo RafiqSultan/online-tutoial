@@ -17,42 +17,59 @@
         <h1> Online Tutorial</h1>
     </div>
 
-    <div class="learn">
+    <section class="learn" id="learn">
         <div class="content">
-            <h2>HTML</h2>
-            <p>The language for building web pages</p>
+            <h2 class="darkWhite">HTML</h2>
+            <p class="darkWhite">The language for building web pages</p>
             <a class="btn" href="htmlcourse.html">learn Now</a>
         </div>
         <img src="img/HTML5_logo_and_wordmark.svg"></img>
 
-    </div>
-    <div class="learn">
+    </section>
+    <div class="learn" id="learn">
         <div class="content">
-            <h2>CSS</h2>
-            <p>The language for styling web pages</p>
+            <h2 class="darkWhite">CSS</h2>
+            <p class="darkWhite">The language for styling web pages</p>
             <a class="btn" href="#">learn Now</a>
         </div>
         <img src="img/CSS3_logo_and_wordmark.svg"></img>
 
     </div>
-    <div class="learn">
+    <div class="learn" id="learn">
         <div class="content">
-            <h2>Java Script</h2>
-            <p>The language for programming web pages</p>
+            <h2 class="darkWhite">Java Script</h2>
+            <p class="darkWhite">The language for programming web pages</p>
             <a class="btn" href="#">learn Now</a>
         </div>
         <img src="img/Javascript_badge.svg"></img>
-
     </div>
-    <div class="learn">
+    <div class="learn" id="learn">
         <div class="content">
-            <h2>TO Do Effects</h2>
-            <p>learn how to do some effects </p>
+            <h2 class="darkWhite">TO Do Effects</h2>
+            <p class="darkWhite">learn how to do some effects </p>
             <a class="btn" href="effect.html">learn Now</a>
         </div>
         <img src="img/effect.jpg"></img>
 
     </div>
+    <!-- Theme -->
+    <div class="toggle_theme" onclick="darkMode()">
+
+    </div>
+
+
+    <script type="text/javascript">
+        function darkMode() {
+            var element = document.getElementsByClassName('learn');
+            for (var i = 0; i < element.length; i++) {
+                element[i].classList.toggle("dark-mode");
+            }
+            var element1 = document.getElementsByClassName('darkWhite');
+            for (var j = 0; j < element1.length; j++) {
+                element1[j].classList.toggle("dark-mode1");
+            }
+        }
+    </script>
 
 
 </body>
